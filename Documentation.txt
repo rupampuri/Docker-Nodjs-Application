@@ -1,0 +1,21 @@
+# Install docker on EC2 instance
+
+# Install npm on my ubuntu machine.
+
+# the run run CMD npm init and got a file Package.json
+
+# Then i need a xpress framework to create a nodejs webapp(I took a code from google).
+
+# so the cmd id "npm install --save express".
+
+# Then i past the source code into "app.js". and give the port "3000".
+
+# Then i run the command "node app.js" to check the application is working or not.
+
+# Then i create a dockerfile to run the webapp under container. with the base image "FROM node:latest"
+
+# Then create an image "node-webapp"  with dockerfile  with docker "docker build -t node-webapp" CMD.
+
+# Then create a container with "docker run -d -p 3000:3000 node-webapp" cmd.
+
+# And successfully the webapp is working under the container.  
